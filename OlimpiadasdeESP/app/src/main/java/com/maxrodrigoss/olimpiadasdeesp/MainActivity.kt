@@ -1,5 +1,6 @@
 package com.maxrodrigoss.olimpiadasdeesp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -23,7 +24,12 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this, "preencha o Time 2", Toast.LENGTH_SHORT).show()
                 return@setOnClickListener }
 
-            val intent = intent(this, )
+            val intent = Intent(this, EscolherESP::class.java)
+
+
+            intent.putExtra("Time1", time1)
+            intent.putExtra("Time2", time2)
+            startActivity(intent)
         }
     }
 }

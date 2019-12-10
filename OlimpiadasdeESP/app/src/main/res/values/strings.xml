@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Olimpiadas de ESP</string>
+    <string name="ctn">CONTINUAR</string>
+    <string name="digite2">Digite o nome do Time 2</string>
+    <string name="digite1">Digite o nome do Time 1</string>
+    <string name="time_1">Time 1:</string>
+    <string name="versus">X</string>
+    <string name="time_2">Time 2:</string>
 </resources>

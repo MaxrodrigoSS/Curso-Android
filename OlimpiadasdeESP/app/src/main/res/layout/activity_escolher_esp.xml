@@ -4,21 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorblack"
     tools:context=".EscolherESP">
 
 
     <TextView
         android:id="@+id/volei"
-        android:layout_width="500px"
-        android:layout_height="500px"
-        android:layout_marginVertical="50px"
+        android:layout_width="200dp"
+        android:layout_height="250dp"
         android:drawableBottom="@drawable/iconVolei" />
 
     <TextView
         android:id="@+id/basquete"
-        android:layout_width="500px"
-        android:layout_height="500px"
-        android:layout_marginVertical="50px"
+        android:layout_width="200dp"
+        android:layout_height="250dp"
         android:layout_alignParentRight="true"
         android:drawableBottom="@drawable/iconbasquete" />
 
@@ -28,23 +27,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
-        android:layout_marginVertical="800px"
-        android:padding="50sp"
-        android:text="Ping Pong" />
+        android:layout_marginVertical="400sp"
+        android:drawableBottom="@drawable/iconPong" />
 
     <TextView
         android:id="@+id/futebol"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginVertical="800px"
-        android:padding="50sp"
-        android:text="Futebol de Praia" />
+        android:layout_marginVertical="400sp"
+        android:drawableBottom="@drawable/iconFutebol"
+         />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginVertical="680sp"
-        android:text="CONTINUAR"/>
+        android:text="@string/ctn"/>
 
 
 
