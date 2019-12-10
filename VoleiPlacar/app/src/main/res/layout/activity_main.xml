@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+
+    <RelativeLayout
+        android:id="@+id/container1"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/menosTime1Btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-1"
+            />
+
+        <TextView
+            android:id="@+id/pontuacao1"
+            android:text="30"
+            android:layout_centerHorizontal="true"
+            android:textSize="104sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_below="@id/pontuacao1"
+            android:text="Time 1"
+            android:layout_centerHorizontal="true"
+            android:textSize="34sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/TelaPlacar"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="x"
+            android:gravity="center"
+            android:textSize="104sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/zerarBtn"
+            android:layout_width="wrap_content"
+            android:text="ZERAR"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/container2"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/menosTime2Btn"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-1"
+            />
+        <TextView
+            android:id="@+id/pontuacao2"
+            android:text="2"
+            android:layout_centerHorizontal="true"
+            android:textSize="104sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_below="@id/pontuacao2"
+            android:text="Time 2"
+            android:layout_centerHorizontal="true"
+            android:textSize="34sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
