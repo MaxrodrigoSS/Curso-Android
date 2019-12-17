@@ -9,10 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        
         <activity android:name=".PlacarBasquete"></activity>
         <activity android:name=".PlacarFutebol" />
         <activity android:name=".PlacarVolei" />
-        <activity android:name=".VoleiOLM" />
+        <activity android:name=".PlacarPong"></activity>
         <activity android:name=".EscolherESP" />
         <activity android:name=".MainActivity">
             <intent-filter>
