@@ -9,23 +9,5 @@ class EscolherESP : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_escolher_esp)
-
-
-        volei.setOnClickListener {
-
-        }
-        basquete.setOnClickListener {
-
-        }
-        pong.setOnClickListener {
-
-        }
-        futebol.setOnClickListener {
-
-        }
-
-
-
-        
     }
 }
