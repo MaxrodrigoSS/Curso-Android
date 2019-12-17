@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundBasquete"
+    tools:context=".placarBasquete">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+    android:id="@+id/pontosBQ1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+    android:text="0"
+        android:textSize="104sp"
+        android:textColor="@color/colorBlue"/>
+    <TextView
+        android:layout_below="@id/menos1T1BQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time 1"
+        android:textColor="@color/colorBlue"
+        android:textSize="34sp"/>
+    <Button
+        android:id="@+id/mais1T1BQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+1"/>
+    <Button
+        android:id="@+id/mais2T1BQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+2"
+        android:layout_marginHorizontal="100sp"/>
+    <Button
+        android:id="@+id/mais3T1BQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+3"
+        android:layout_marginHorizontal="206sp"/>
+    <Button
+        android:id="@+id/menos1T1BQ"
+        android:layout_below="@id/pontosBQ1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-1"/>
+    <Button
+        android:id="@+id/menos2T1BQ"
+        android:layout_below="@id/pontosBQ1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="100sp"
+        android:text="-2"/>
+    <Button
+        android:id="@+id/menos3T1BQ"
+        android:layout_below="@id/pontosBQ1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="206sp"
+        android:text="-3"/>
+</RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="500sp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorBlue"
+            android:text="X"
+            android:textSize="100sp"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/pontosBQ2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlue"
+            android:layout_margin="10sp"
+            android:text="0"
+            android:textSize="104sp"/>
+
+        <TextView
+            android:layout_below="@id/menos1T2BQ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlue"
+            android:text="Time 2"
+            android:textSize="34sp"/>
+        <Button
+            android:id="@+id/mais1T2BQ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+1"/>
+        <Button
+            android:id="@+id/mais2T2BQ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+2"
+            android:layout_marginHorizontal="100sp"/>
+        <Button
+            android:id="@+id/mais3T2BQ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+3"
+            android:layout_marginHorizontal="206sp"/>
+        <Button
+            android:id="@+id/menos1T2BQ"
+            android:layout_below="@id/pontosBQ2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-1"/>
+        <Button
+            android:id="@+id/menos2T2BQ"
+            android:layout_below="@id/pontosBQ2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="100sp"
+            android:text="-2"/>
+        <Button
+            android:id="@+id/menos3T2BQ"
+            android:layout_below="@id/pontosBQ2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="206sp"
+            android:text="-3"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/zerarBtn"
+            android:layout_width="match_parent"
+            android:text="ZERAR"
+            android:layout_height="match_parent"/>
+    </RelativeLayout>
+
+
+</LinearLayout>
