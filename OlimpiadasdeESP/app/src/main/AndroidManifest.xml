@@ -9,12 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
         
         <activity android:name=".PlacarBasquete"></activity>
         <activity android:name=".PlacarFutebol" />
         <activity android:name=".PlacarVolei" />
         <activity android:name=".PlacarPong"></activity>
         <activity android:name=".EscolherESP" />
+=======
+        <activity android:name=".EscolherESP"></activity>
+>>>>>>> parent of ee980ad... novos placares
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
